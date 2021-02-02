@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { Component }from 'react';
 import HomeHeader from '../components/homeComponents/HomeHeader';
 import HomeImg from '../components/homeComponents/HomeImg';
+import { fetchProjects } from '../actions/ActIndex';
 
-const HomeContainer = () => {
-    return (
-        <div>
-            <HomeHeader />
-            <HomeImg />
-            {/* <NavBar /> */}
-        </div>
-    );
+class HomeContainer extends Component{
+
+    componentDidMount =() => {
+        this.props.fetchProjects()
+      }
+
+    render() {
+        return (
+            <div>
+                <HomeHeader />
+                <HomeImg />
+                
+            </div>
+        );
+    }
 }
 
 export default HomeContainer;
