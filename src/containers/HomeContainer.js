@@ -1,7 +1,8 @@
 import React from 'react';
-import HomeHeader from '';
+import HomeHeader from '../components/homeComponents/HomeHeader';
+import HomeImg from '../components/homeComponents/HomeImg';
 
-const Home = () => {
+const HomeContainer = () => {
     return (
         <div>
             <HomeHeader />
@@ -11,4 +12,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomeContainer;

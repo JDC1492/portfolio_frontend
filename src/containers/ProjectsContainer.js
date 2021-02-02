@@ -4,7 +4,7 @@ class ProjectsContainer extends Component {
     render() {
         return (
             <div>
-                
+                <Projects />    
             </div>
         );
     }
