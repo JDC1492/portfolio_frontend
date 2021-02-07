@@ -10,12 +10,11 @@ class Projects extends Component {
     }
     
     render() {
-        debugger
+        // debugger
         const eachProject = this.props.projects.map((project,i) => <Project key={i} project={project} />)
             // Create variable assignment of the passed down prop being mapped through and returning a <Project key={i} project={project}/>
-
         return (
-            <div>
+            <div className="projCont">
                 {eachProject}           
             </div>
         );

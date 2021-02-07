@@ -3,16 +3,20 @@ import React from 'react';
 const Project = ({project}) => {
    
     return (
-        <div className="projectContainer">
-           <img src={project.imgUrl} alt="Not Available"/>
+        <div className="projects">
+           <img src={project.imgUrl} className='photo' alt="Not Available"/>
            <h1>{project.title}</h1>
            <p>{project.description}</p>
            <a href={project.gitLink}> View project </a>
+           <br />
+           <br /> 
         </div>
     );
 }
 
 export default Project;
+
+
 // import React, { Component } from 'react';
 
 // class Project extends Component {
@@ -29,4 +33,3 @@ export default Project;
 // }
 
 // export default Project;
-

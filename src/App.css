@@ -37,6 +37,36 @@
   }
 }
 
-.projectContainer{
+body{
+  background-image: url(./Images/portfoliobg.jpg);
+  background-color:rgb(129, 129, 103);
+  background-blend-mode:hard-light;
+  background-size:cover ;
 
+}
+
+.navBar{
+  display:inline-flex;
+}
+
+.projCont{
+  margin-left: 15%;
+  margin-right: 15%;
+  /* text-align: center; */
+  /* background-color: #8e21aa; */
+  display:grid;
+  grid-template-rows: 5fr;
+  
+  row-gap:15px;
+}
+
+.projects{
+  /* margin: 0 auto; */
+  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color:rgb(141, 140, 131);
+  border-radius: 10px;
+  opacity: 80%;
 }

@@ -5,7 +5,7 @@ import ProjectsLink from '../components/navComponents/ProjectsLink';
 
 const NavBarContainer = () => {
     return (
-        <div>
+        <div className='navBar'>
             <HomeLink /> |
             <ProjectsLink/> |
             <AboutLink />    
