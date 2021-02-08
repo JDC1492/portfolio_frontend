@@ -37,12 +37,48 @@
   }
 }
 
+    /* home page CSS */
+
+
+.photoCont{
+  display: inline-flex;
+  margin-top: 27px;
+  margin-left: auto;
+    margin-right: auto;
+  /* border-radius: 250px; */
+  /* border-top: 4px dotted blue; */
+  /* border-bottom: 4px dotted blue; */
+  align-content: center;
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+}
+
+.homePhoto{
+  align-content: center;
+  height: 510px;
+  width: 390px;
+  /* border-radius: 195px; */
+  padding: 7mm ;
+}
+
+.homeHeader{
+  font-family:serif;
+  text-align: center;
+}
+
+.homeList{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+
+
+
+
 body{
   background-image: url(./Images/portfoliobg.jpg);
   background-color:rgb(129, 129, 103);
   background-blend-mode:hard-light;
-  background-size:cover ;
-
+  background-size:cover;
 }
 
 .navBar{
@@ -69,4 +105,6 @@ body{
   background-color:rgb(141, 140, 131);
   border-radius: 10px;
   opacity: 80%;
+  /* display:table-row; */
+ 
 }

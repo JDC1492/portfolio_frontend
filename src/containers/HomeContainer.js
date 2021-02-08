@@ -8,8 +8,8 @@ class HomeContainer extends Component{
     render() {
         return (
             <div>
-                <HomeHeader />
                 <HomeImg />                
+                <HomeHeader />
             </div>
         );
     }
